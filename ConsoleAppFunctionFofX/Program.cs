@@ -6,11 +6,11 @@ namespace ConsoleAppFunctionFofX
   {
     static void Main()
     {
-      Console.WriteLine("calcul");
+      Console.WriteLine("Computing");
       for (int i = 0; i < 55; i++)
       {
-        var test = Computefunction(i);
-        Console.WriteLine($"F de {i} est {test}");
+        var result = Computefunction(i);
+        Console.WriteLine($"Function for {i} gives: {result}");
       }
 
       Console.WriteLine("Press any key to exit:");
